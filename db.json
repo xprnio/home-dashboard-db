@@ -1,0 +1,37 @@
+{
+  "services": [
+    {"id": "0001", "name": "Security", "status": "online"},
+    {"id": "0002", "name": "Living room TV", "status": "online"},
+    {"id": "0003", "name": "Automatic curtains", "status": "offline"}
+  ],
+  "logs": [
+    {"service": "0001", "level": "info", "message": "Systems starting...", "logged_at": "2019-10-01T14:17:00"},
+    {"service": "0001", "level": "info", "message": "All systems online", "logged_at": "2019-10-01T14:18:00"},
+    {"service": "0001", "level": "info", "message": "Security system armed: Ragnar", "logged_at": "2019-10-01T14:19:00"},
+    {"service": "0001", "level": "info", "message": "Authentication successful: Ragnar", "logged_at": "2019-10-01T14:20:00"},
+    {"service": "0001", "level": "info", "message": "Authentication successful: Adela", "logged_at": "2019-10-01T14:21:00"},
+    {"service": "0001", "level": "warn", "message": "Authentication unsuccessful: Unknown key", "logged_at": "2019-10-01T14:25:00"},
+    {"service": "0001", "level": "warn", "message": "Authentication unsuccessful: Unknown key", "logged_at": "2019-10-01T14:26:00"},
+    {"service": "0001", "level": "warn", "message": "Authentication unsuccessful: Unknown key", "logged_at": "2019-10-01T14:27:00"},
+    {"service": "0001", "level": "warn", "message": "Authentication successful: Ragnar", "logged_at": "2019-10-01T14:28:00"},
+    {"service": "0001", "level": "warn", "message": "Security system disarmed: Ragnar", "logged_at": "2019-10-01T14:30:00"},
+    {"service": "0001", "level": "warn", "message": "Camera disabled: Ragnar", "logged_at": "2019-10-01T14:30:30"},
+
+    {"service": "0002", "level": "info", "message": "Systems starting...", "logged_at": "2019-10-01T14:19:00"},
+    {"service": "0002", "level": "info", "message": "Smart TV service online", "logged_at": "2019-10-01T14:20:00"},
+    {"service": "0002", "level": "info", "message": "Steam Link service online", "logged_at": "2019-10-01T14:20:30"},
+    {"service": "0002", "level": "info", "message": "All systems online", "logged_at": "2019-10-01T14:21:00"},
+    
+    {"service": "0003", "level": "info", "message": "Systems starting...", "logged_at": "2019-10-01T14:19:00"},
+    {"service": "0003", "level": "info", "message": "Starting cluster...", "logged_at": "2019-10-01T14:20:00"},
+    {"service": "0003", "level": "info", "message": "Node online: 192.168.10.1", "logged_at": "2019-10-01T14:21:00"},
+    {"service": "0003", "level": "info", "message": "Node online: 192.168.10.2", "logged_at": "2019-10-01T14:21:00"},
+    {"service": "0003", "level": "info", "message": "Node online: 192.168.10.3", "logged_at": "2019-10-01T14:21:00"},
+    {"service": "0003", "level": "info", "message": "All systems online", "logged_at": "2019-10-01T14:21:00"},
+    {"service": "0003", "level": "info", "message": "Stopping cluster...", "logged_at": "2019-10-01T14:25:00"},
+    {"service": "0003", "level": "info", "message": "Node offline: 192.168.10.1", "logged_at": "2019-10-01T14:26:00"},
+    {"service": "0003", "level": "info", "message": "Node offline: 192.168.10.2", "logged_at": "2019-10-01T14:26:00"},
+    {"service": "0003", "level": "info", "message": "Node offline: 192.168.10.3", "logged_at": "2019-10-01T14:26:00"},
+    {"service": "0003", "level": "info", "message": "All nodes offline, stopping...", "logged_at": "2019-10-01T14:26:00"}
+  ]
+}
