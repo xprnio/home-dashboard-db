@@ -1,0 +1,7 @@
+{
+  "services": [
+    {"name": "Security", "status": "online"},
+    {"name": "Living room TV", "status": "online"},
+    {"name": "Automatic curtains", "status": "offline"}
+  ]
+}
